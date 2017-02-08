@@ -244,3 +244,90 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+  #main-container{
+    width: 90%;
+    border: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
+  .sidebar {
+    max-width: 100%;
+  }
+  #logo { 
+  width: 100%;
+ }
+  nav {
+    width: 80%;
+    float: right;
+    bottom: 20px;
+  }
+  h1 {
+    padding-top: 40px;
+  }
+  .work{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){  
+  #main-container{
+    width: 90%;
+    border: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sidebar {
+    max-width: 100%;
+  }
+  #logo { 
+  width: 40%;
+ }
+  nav {
+    width: 60%;
+    float: left;
+    bottom: 20px;
+  }
+ 
+  }
+  .work{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 980px){
+    #main-container{
+    width: 70%;
+    border: 40px;
+    padding-bottom: 20px;
+  }
+  .sidebar {
+    max-width: 100%;
+  }
+  #logo { 
+  width: 40%;
+ }
+  nav {
+    width: 60%;
+    float: left;
+    bottom: 20px;
+  }
+ 
+  }
+  .work{
+    width: 40%;
+  }
+  .auth-image {
+    width: 100%;
+    float: center;
+  }
+
+}
